@@ -5,4 +5,4 @@ dependencies:
   - hdf5>=1.10.5
   - pip
   - pip:
-    git+https://github.com/catalystneuro/HDF5Zarr.git
+    - git+https://github.com/catalystneuro/HDF5Zarr.git
