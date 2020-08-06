@@ -1,6 +1,4 @@
-name: l2lhub
-channels:
-  - conda-forge
+name: hdf5zarr
 dependencies:
   - hdf5>=1.10.5
   - pip
