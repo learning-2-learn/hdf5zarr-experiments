@@ -48,7 +48,7 @@ def batch_process(func, params, client):
         Has the form [(a1, b1, c1, ...), (a2, b2, c2, ...), ...., (an, bn, cn, ...)], 
         where each tuple is the inputs to one process.
         
-    client : a dask Client to an initialized cluste, optional. 
+    client : a dask Client to an initialized cluster, optional. 
         Defaults to start a new client.
     """
     results = client.map(func, params)
